@@ -50,7 +50,10 @@ public class MainWithInMemory {
         final LoggedInViewModel loggedInViewModel = new LoggedInViewModel();
         final SignupViewModel signupViewModel = new SignupViewModel();
 
-        // TODO Task 1.1 in a copy of this file, change this line to use the in-memory DAO.
+        // Task 1.1 in a copy of this file, change this line to use the in-memory DAO.
+        // Adding random lines of nonsense so that the camera can pick up some good footage of
+        // Me typing, is it giving cs core? Haha. Hopefully the camera isn't picking this up
+
         final InMemoryUserDataAccessObject userDataAccessObject = new InMemoryUserDataAccessObject();
 
         final SignupView signupView = SignupUseCaseFactory.create(viewManagerModel, loginViewModel,
